@@ -62,7 +62,7 @@ class User extends BaseUser
     /**
      * Get lastname
      *
-     * @return string 
+     * @return string
      */
     public function getLastname()
     {
@@ -85,7 +85,7 @@ class User extends BaseUser
     /**
      * Get firstname
      *
-     * @return string 
+     * @return string
      */
     public function getFirstname()
     {
@@ -108,7 +108,7 @@ class User extends BaseUser
     /**
      * Get phone
      *
-     * @return string 
+     * @return string
      */
     public function getPhone()
     {
@@ -131,7 +131,7 @@ class User extends BaseUser
     /**
      * Get birth
      *
-     * @return \DateTime 
+     * @return \DateTime
      */
     public function getBirth()
     {
