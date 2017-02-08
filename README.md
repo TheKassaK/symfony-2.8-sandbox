@@ -19,4 +19,3 @@ In this project you have :
     * Prefixed with **/user** in **routing.yml**
         * A firewall preconfigured in **security.yml**
         * All routes in UserBundle require ROLE_USER or ROLE_ADMIN
-
