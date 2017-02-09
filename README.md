@@ -14,8 +14,8 @@ In this project you have :
 * An AdminBundle :
     * Prefixed with **/admin** in **routing.yml**
     * A firewall preconfigured in **security.yml**
-    * All routes in AdminBundle require ROLE_ADMIN
+    * All routes in AdminBundle require **ROLE_ADMIN**
 * An UserBundle:
     * Prefixed with **/user** in **routing.yml**
-        * A firewall preconfigured in **security.yml**
-        * All routes in UserBundle require ROLE_USER or ROLE_ADMIN
+    * A firewall preconfigured in **security.yml**
+    * All routes in UserBundle require **ROLE_USER** or **ROLE_ADMIN**
