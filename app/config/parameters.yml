@@ -10,3 +10,4 @@ parameters:
     mailer_user: null
     mailer_password: null
     secret: 64a44be1ae83489328163a6799ceac8d5afa5e33
+    project_name: symfony-sandbox
