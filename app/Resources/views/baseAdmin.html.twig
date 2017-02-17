@@ -5,11 +5,11 @@
         <title>{% block title %}  {{ project_name }} - Admin {% endblock %}</title>
         {% block stylesheets %} {% endblock %}
         <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
-            {% stylesheets filter="scssphp" output="css/application.css"
-                "assets/css/vendor/*.css"
-                "assets/css/app/*.css"
+            {% stylesheets filter="scssphp" output="css/admin.css"
                 "assets/scss/vendor/*.scss"
                 "assets/scss/app/*.scss"
+                "assets/css/vendor/*.css"
+                "assets/css/app/*.css"
                 "@AdminBundle/Resources/public/css/*"
                 "@AdminBundle/Resources/public/scss/*"
             %}
@@ -59,7 +59,7 @@
 
         </div>
 
-        {% javascripts filter="?jsqueeze" output="js/application.js"
+        {% javascripts filter="?jsqueeze" output="js/admin.js"
             "assets/js/vendor/jquery.js"
             "assets/js/vendor/bootstrap.js"
             "assets/js/vendor/*.js"

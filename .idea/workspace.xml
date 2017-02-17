@@ -2,117 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5e4080a-2ed4-4fdd-a8cb-7fa742c0336e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/composer.lock" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/AdminBundle/Resources/public/js/admin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/AdminBundle/Resources/public/scss/admin.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/Resources/public/css/app.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/Resources/public/js/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/Resources/public/scss/app.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/UserBundle/Resources/public/css/user.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/UserBundle/Resources/public/js/user.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/UserBundle/Resources/public/scss/app.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/css/vendor/none.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/js/app/main.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/scss/app/main.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/font-awesome.scss" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/assets/scss/font-awesome.scss" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/css/main.css" afterPath="$PROJECT_DIR$/web/assets/css/app/main.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/js/bootstrap.js" afterPath="$PROJECT_DIR$/web/assets/js/vendor/bootstrap.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/js/jquery.js" afterPath="$PROJECT_DIR$/web/assets/js/vendor/jquery.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/js/main.js" afterPath="$PROJECT_DIR$/src/AdminBundle/Resources/public/css/admin.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/bootstrap.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/bootstrap.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/bootstrap/_alerts.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/bootstrap/_alerts.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/bootstrap/_badges.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/bootstrap/_badges.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/bootstrap/_breadcrumbs.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/bootstrap/_breadcrumbs.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/bootstrap/_button-groups.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/bootstrap/_button-groups.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/bootstrap/_buttons.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/bootstrap/_buttons.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/bootstrap/_carousel.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/bootstrap/_carousel.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/bootstrap/_close.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/bootstrap/_close.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/bootstrap/_code.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/bootstrap/_code.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/bootstrap/_component-animations.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/bootstrap/_component-animations.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/bootstrap/_dropdowns.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/bootstrap/_dropdowns.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/bootstrap/_forms.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/bootstrap/_forms.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/bootstrap/_glyphicons.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/bootstrap/_glyphicons.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/bootstrap/_grid.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/bootstrap/_grid.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/bootstrap/_input-groups.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/bootstrap/_input-groups.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/bootstrap/_jumbotron.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/bootstrap/_jumbotron.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/bootstrap/_labels.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/bootstrap/_labels.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/bootstrap/_list-group.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/bootstrap/_list-group.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/bootstrap/_media.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/bootstrap/_media.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/bootstrap/_mixins.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/bootstrap/_mixins.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/bootstrap/_modals.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/bootstrap/_modals.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/bootstrap/_navbar.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/bootstrap/_navbar.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/bootstrap/_navs.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/bootstrap/_navs.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/bootstrap/_normalize.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/bootstrap/_normalize.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/bootstrap/_pager.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/bootstrap/_pager.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/bootstrap/_pagination.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/bootstrap/_pagination.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/bootstrap/_panels.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/bootstrap/_panels.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/bootstrap/_popovers.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/bootstrap/_popovers.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/bootstrap/_print.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/bootstrap/_print.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/bootstrap/_progress-bars.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/bootstrap/_progress-bars.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/bootstrap/_responsive-embed.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/bootstrap/_responsive-embed.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/bootstrap/_responsive-utilities.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/bootstrap/_responsive-utilities.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/bootstrap/_scaffolding.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/bootstrap/_scaffolding.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/bootstrap/_tables.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/bootstrap/_tables.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/bootstrap/_theme.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/bootstrap/_theme.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/bootstrap/_thumbnails.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/bootstrap/_thumbnails.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/bootstrap/_tooltip.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/bootstrap/_tooltip.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/bootstrap/_type.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/bootstrap/_type.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/bootstrap/_utilities.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/bootstrap/_utilities.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/bootstrap/_variables.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/bootstrap/_variables.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/bootstrap/_wells.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/bootstrap/_wells.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/bootstrap/mixins/_alerts.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/bootstrap/mixins/_alerts.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/bootstrap/mixins/_background-variant.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/bootstrap/mixins/_background-variant.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/bootstrap/mixins/_border-radius.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/bootstrap/mixins/_border-radius.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/bootstrap/mixins/_buttons.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/bootstrap/mixins/_buttons.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/bootstrap/mixins/_center-block.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/bootstrap/mixins/_center-block.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/bootstrap/mixins/_clearfix.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/bootstrap/mixins/_clearfix.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/bootstrap/mixins/_forms.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/bootstrap/mixins/_forms.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/bootstrap/mixins/_gradients.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/bootstrap/mixins/_gradients.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/bootstrap/mixins/_grid-framework.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/bootstrap/mixins/_grid-framework.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/bootstrap/mixins/_grid.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/bootstrap/mixins/_grid.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/bootstrap/mixins/_hide-text.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/bootstrap/mixins/_hide-text.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/bootstrap/mixins/_image.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/bootstrap/mixins/_image.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/bootstrap/mixins/_labels.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/bootstrap/mixins/_labels.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/bootstrap/mixins/_list-group.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/bootstrap/mixins/_list-group.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/bootstrap/mixins/_nav-divider.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/bootstrap/mixins/_nav-divider.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/bootstrap/mixins/_nav-vertical-align.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/bootstrap/mixins/_nav-vertical-align.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/bootstrap/mixins/_opacity.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/bootstrap/mixins/_opacity.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/bootstrap/mixins/_pagination.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/bootstrap/mixins/_pagination.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/bootstrap/mixins/_panels.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/bootstrap/mixins/_panels.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/bootstrap/mixins/_progress-bar.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/bootstrap/mixins/_progress-bar.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/bootstrap/mixins/_reset-filter.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/bootstrap/mixins/_reset-filter.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/bootstrap/mixins/_reset-text.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/bootstrap/mixins/_reset-text.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/bootstrap/mixins/_resize.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/bootstrap/mixins/_resize.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/bootstrap/mixins/_responsive-visibility.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/bootstrap/mixins/_responsive-visibility.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/bootstrap/mixins/_size.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/bootstrap/mixins/_size.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/bootstrap/mixins/_tab-focus.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/bootstrap/mixins/_tab-focus.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/bootstrap/mixins/_table-row.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/bootstrap/mixins/_table-row.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/bootstrap/mixins/_text-emphasis.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/bootstrap/mixins/_text-emphasis.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/bootstrap/mixins/_text-overflow.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/bootstrap/mixins/_text-overflow.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/bootstrap/mixins/_vendor-prefixes.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/bootstrap/mixins/_vendor-prefixes.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/font-awesome/_animated.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/font-awesome/_animated.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/font-awesome/_bordered-pulled.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/font-awesome/_bordered-pulled.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/font-awesome/_core.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/font-awesome/_core.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/font-awesome/_fixed-width.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/font-awesome/_fixed-width.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/font-awesome/_icons.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/font-awesome/_icons.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/font-awesome/_larger.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/font-awesome/_larger.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/font-awesome/_list.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/font-awesome/_list.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/font-awesome/_mixins.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/font-awesome/_mixins.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/font-awesome/_path.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/font-awesome/_path.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/font-awesome/_rotated-flipped.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/font-awesome/_rotated-flipped.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/font-awesome/_screen-reader.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/font-awesome/_screen-reader.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/font-awesome/_stacked.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/font-awesome/_stacked.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/font-awesome/_variables.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/font-awesome/_variables.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/AppKernel.php" afterPath="$PROJECT_DIR$/app/AppKernel.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/base.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/baseAdmin.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/baseAdmin.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/config.yml" afterPath="$PROJECT_DIR$/app/config/config.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/config_dev.yml" afterPath="$PROJECT_DIR$/app/config/config_dev.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/parameters.yml" afterPath="$PROJECT_DIR$/app/config/parameters.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/parameters.yml.dist" afterPath="$PROJECT_DIR$/app/config/parameters.yml.dist" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -143,7 +35,7 @@
             <state relative-caret-position="630">
               <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
               <folding>
-                <marker date="1486632688079" expanded="true" signature="82:99" ph="{% block title ...%}" />
+                <marker date="1487339590699" expanded="true" signature="82:99" ph="{% block title ...%}" />
               </folding>
             </state>
           </provider>
@@ -163,7 +55,7 @@
         <entry file="file://$PROJECT_DIR$/app/config/parameters.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="234">
-              <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+              <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
               <folding>
                 <marker date="1486632688119" expanded="true" signature="58:367" ph="parameters: &lt;10 keys&gt;" />
               </folding>
@@ -171,11 +63,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AppKernel.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="parameters.yml.dist" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/config/parameters.yml.dist">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AppKernel.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/AppKernel.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+            <state relative-caret-position="360">
+              <caret line="21" column="40" lean-forward="true" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -602,7 +504,7 @@
       <workItem from="1486570137432" duration="6758000" />
       <workItem from="1486633093041" duration="321000" />
       <workItem from="1486638152971" duration="14000" />
-      <workItem from="1487339438862" duration="84000" />
+      <workItem from="1487339438862" duration="162000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1486568512666</created>
@@ -622,7 +524,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10695000" />
+    <option name="totallyTimeSpent" value="10773000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1280" y="0" width="1920" height="1040" extended-state="0" />
@@ -743,23 +645,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/parameters.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding>
-            <marker date="1486632688119" expanded="true" signature="58:367" ph="parameters: &lt;10 keys&gt;" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/parameters.yml.dist">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/UserBundle/Resources/views/Default/index.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -833,7 +718,7 @@
         <state relative-caret-position="630">
           <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
           <folding>
-            <marker date="1486632688079" expanded="true" signature="82:99" ph="{% block title ...%}" />
+            <marker date="1487339590699" expanded="true" signature="82:99" ph="{% block title ...%}" />
           </folding>
         </state>
       </provider>
@@ -861,8 +746,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/AppKernel.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+        <state relative-caret-position="360">
+          <caret line="21" column="40" lean-forward="true" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/parameters.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding>
+            <marker date="1486632688119" expanded="true" signature="58:367" ph="parameters: &lt;10 keys&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/parameters.yml.dist">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding />
         </state>
       </provider>
