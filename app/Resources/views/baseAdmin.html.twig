@@ -2,12 +2,19 @@
 <html>
     <head>
         <meta charset="UTF-8" />
-        <title>{% block title %}Welcome!{% endblock %}</title>
-        {% block stylesheets %}
-            {% stylesheets '@AdminBundle/Resources/public/css/*' filter='cssrewrite' %}
-            <link rel="stylesheet" href="{{ asset_url }}" />
-            {% endstylesheets %}
-        {% endblock %}
+        <title>{% block title %}  {{ project_name }} - Admin {% endblock %}</title>
+        {% block stylesheets %} {% endblock %}
+        <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
+            {% stylesheets filter="scssphp" output="css/application.css"
+                "assets/css/vendor/*.css"
+                "assets/css/app/*.css"
+                "assets/scss/vendor/*.scss"
+                "assets/scss/app/*.scss"
+                "@AdminBundle/Resources/public/css/*"
+                "@AdminBundle/Resources/public/scss/*"
+            %}
+        <link rel="stylesheet" href="{{ asset_url }}" />
+        {% endstylesheets %}
         <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
         <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
         <style>
@@ -28,7 +35,7 @@
                 </div>
                 <div id="navbar" class="navbar-collapse collapse">
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a href="{{ path('logout') }}">Logout</a></li>
+                        <li><a href="{{ path('fos_user_security_logout') }}">Logout</a></li>
                     </ul>
                 </div>
             </div>
@@ -39,19 +46,7 @@
                 <div class="col-sm-3 col-md-2 sidebar">
                     <ul class="nav nav-sidebar">
                         <li class="{% if app.request.attributes.get('_route') starts with 'user' %}active{% endif %}">
-                            <a href="{{ path('user_index') }}">Clients</a>
-                        </li>
-                        <li class="{% if app.request.attributes.get('_route') == 'pricing_edit' %}active{% endif %}">
-                            <a href="{{ path('pricing_edit') }}">Tarification</a>
-                        </li>
-                        <li class="{% if app.request.attributes.get('_route') starts with 'pricing_weight' %}active{% endif %}">
-                            <a href="{{ path('pricing_weight_index') }}">Tarifs livraison</a>
-                        </li>
-                        <li class="{% if app.request.attributes.get('_route') starts with 'orders' %}active{% endif %}">
-                            <a href="{{ path('orders_index') }}">Commandes</a>
-                        </li>
-                        <li class="{% if app.request.attributes.get('_route') starts with 'promo' %}active{% endif %}">
-                            <a href="{{ path('promocode_index') }}">Coupons</a>
+                            <a href="#">Menu 1</a>
                         </li>
                     </ul>
                 </div>
@@ -64,12 +59,15 @@
 
         </div>
 
-        <script src="{{ asset('https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js') }}"></script>
-        <script src="{{ asset('https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js') }}"></script>
-        {% javascripts '@AdminBundle/Resources/public/js/*' %}
+        {% javascripts filter="?jsqueeze" output="js/application.js"
+            "assets/js/vendor/jquery.js"
+            "assets/js/vendor/bootstrap.js"
+            "assets/js/vendor/*.js"
+            "assets/js/app/*.js"
+            "@AdminBundle/Resources/public/js/*"
+        %}
         <script src="{{ asset_url }}"></script>
         {% endjavascripts %}
-
-        {% block javascripts %}{% endblock %}
+        {% block javascripts %}   {% endblock %}
     </body>
 </html>

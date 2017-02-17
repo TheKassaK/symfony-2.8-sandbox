@@ -1,9 +1,118 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b5e4080a-2ed4-4fdd-a8cb-7fa742c0336e" name="Default" comment="readme">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+    <list default="true" id="b5e4080a-2ed4-4fdd-a8cb-7fa742c0336e" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/composer.lock" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/AdminBundle/Resources/public/js/admin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/AdminBundle/Resources/public/scss/admin.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/Resources/public/css/app.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/Resources/public/js/app.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/Resources/public/scss/app.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/UserBundle/Resources/public/css/user.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/UserBundle/Resources/public/js/user.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/UserBundle/Resources/public/scss/app.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/css/vendor/none.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/js/app/main.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/scss/app/main.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/font-awesome.scss" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/assets/scss/font-awesome.scss" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/css/main.css" afterPath="$PROJECT_DIR$/web/assets/css/app/main.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/js/bootstrap.js" afterPath="$PROJECT_DIR$/web/assets/js/vendor/bootstrap.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/js/jquery.js" afterPath="$PROJECT_DIR$/web/assets/js/vendor/jquery.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/js/main.js" afterPath="$PROJECT_DIR$/src/AdminBundle/Resources/public/css/admin.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/bootstrap.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/bootstrap.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/bootstrap/_alerts.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/bootstrap/_alerts.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/bootstrap/_badges.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/bootstrap/_badges.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/bootstrap/_breadcrumbs.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/bootstrap/_breadcrumbs.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/bootstrap/_button-groups.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/bootstrap/_button-groups.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/bootstrap/_buttons.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/bootstrap/_buttons.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/bootstrap/_carousel.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/bootstrap/_carousel.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/bootstrap/_close.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/bootstrap/_close.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/bootstrap/_code.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/bootstrap/_code.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/bootstrap/_component-animations.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/bootstrap/_component-animations.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/bootstrap/_dropdowns.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/bootstrap/_dropdowns.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/bootstrap/_forms.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/bootstrap/_forms.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/bootstrap/_glyphicons.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/bootstrap/_glyphicons.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/bootstrap/_grid.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/bootstrap/_grid.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/bootstrap/_input-groups.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/bootstrap/_input-groups.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/bootstrap/_jumbotron.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/bootstrap/_jumbotron.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/bootstrap/_labels.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/bootstrap/_labels.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/bootstrap/_list-group.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/bootstrap/_list-group.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/bootstrap/_media.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/bootstrap/_media.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/bootstrap/_mixins.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/bootstrap/_mixins.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/bootstrap/_modals.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/bootstrap/_modals.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/bootstrap/_navbar.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/bootstrap/_navbar.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/bootstrap/_navs.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/bootstrap/_navs.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/bootstrap/_normalize.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/bootstrap/_normalize.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/bootstrap/_pager.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/bootstrap/_pager.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/bootstrap/_pagination.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/bootstrap/_pagination.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/bootstrap/_panels.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/bootstrap/_panels.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/bootstrap/_popovers.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/bootstrap/_popovers.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/bootstrap/_print.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/bootstrap/_print.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/bootstrap/_progress-bars.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/bootstrap/_progress-bars.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/bootstrap/_responsive-embed.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/bootstrap/_responsive-embed.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/bootstrap/_responsive-utilities.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/bootstrap/_responsive-utilities.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/bootstrap/_scaffolding.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/bootstrap/_scaffolding.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/bootstrap/_tables.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/bootstrap/_tables.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/bootstrap/_theme.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/bootstrap/_theme.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/bootstrap/_thumbnails.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/bootstrap/_thumbnails.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/bootstrap/_tooltip.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/bootstrap/_tooltip.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/bootstrap/_type.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/bootstrap/_type.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/bootstrap/_utilities.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/bootstrap/_utilities.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/bootstrap/_variables.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/bootstrap/_variables.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/bootstrap/_wells.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/bootstrap/_wells.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/bootstrap/mixins/_alerts.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/bootstrap/mixins/_alerts.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/bootstrap/mixins/_background-variant.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/bootstrap/mixins/_background-variant.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/bootstrap/mixins/_border-radius.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/bootstrap/mixins/_border-radius.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/bootstrap/mixins/_buttons.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/bootstrap/mixins/_buttons.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/bootstrap/mixins/_center-block.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/bootstrap/mixins/_center-block.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/bootstrap/mixins/_clearfix.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/bootstrap/mixins/_clearfix.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/bootstrap/mixins/_forms.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/bootstrap/mixins/_forms.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/bootstrap/mixins/_gradients.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/bootstrap/mixins/_gradients.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/bootstrap/mixins/_grid-framework.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/bootstrap/mixins/_grid-framework.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/bootstrap/mixins/_grid.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/bootstrap/mixins/_grid.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/bootstrap/mixins/_hide-text.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/bootstrap/mixins/_hide-text.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/bootstrap/mixins/_image.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/bootstrap/mixins/_image.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/bootstrap/mixins/_labels.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/bootstrap/mixins/_labels.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/bootstrap/mixins/_list-group.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/bootstrap/mixins/_list-group.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/bootstrap/mixins/_nav-divider.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/bootstrap/mixins/_nav-divider.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/bootstrap/mixins/_nav-vertical-align.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/bootstrap/mixins/_nav-vertical-align.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/bootstrap/mixins/_opacity.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/bootstrap/mixins/_opacity.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/bootstrap/mixins/_pagination.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/bootstrap/mixins/_pagination.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/bootstrap/mixins/_panels.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/bootstrap/mixins/_panels.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/bootstrap/mixins/_progress-bar.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/bootstrap/mixins/_progress-bar.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/bootstrap/mixins/_reset-filter.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/bootstrap/mixins/_reset-filter.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/bootstrap/mixins/_reset-text.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/bootstrap/mixins/_reset-text.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/bootstrap/mixins/_resize.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/bootstrap/mixins/_resize.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/bootstrap/mixins/_responsive-visibility.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/bootstrap/mixins/_responsive-visibility.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/bootstrap/mixins/_size.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/bootstrap/mixins/_size.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/bootstrap/mixins/_tab-focus.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/bootstrap/mixins/_tab-focus.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/bootstrap/mixins/_table-row.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/bootstrap/mixins/_table-row.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/bootstrap/mixins/_text-emphasis.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/bootstrap/mixins/_text-emphasis.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/bootstrap/mixins/_text-overflow.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/bootstrap/mixins/_text-overflow.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/bootstrap/mixins/_vendor-prefixes.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/bootstrap/mixins/_vendor-prefixes.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/font-awesome/_animated.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/font-awesome/_animated.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/font-awesome/_bordered-pulled.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/font-awesome/_bordered-pulled.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/font-awesome/_core.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/font-awesome/_core.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/font-awesome/_fixed-width.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/font-awesome/_fixed-width.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/font-awesome/_icons.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/font-awesome/_icons.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/font-awesome/_larger.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/font-awesome/_larger.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/font-awesome/_list.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/font-awesome/_list.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/font-awesome/_mixins.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/font-awesome/_mixins.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/font-awesome/_path.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/font-awesome/_path.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/font-awesome/_rotated-flipped.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/font-awesome/_rotated-flipped.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/font-awesome/_screen-reader.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/font-awesome/_screen-reader.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/font-awesome/_stacked.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/font-awesome/_stacked.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/assets/scss/font-awesome/_variables.scss" afterPath="$PROJECT_DIR$/web/assets/scss/vendor/font-awesome/_variables.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/AppKernel.php" afterPath="$PROJECT_DIR$/app/AppKernel.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/base.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/baseAdmin.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/baseAdmin.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/config.yml" afterPath="$PROJECT_DIR$/app/config/config.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/config_dev.yml" afterPath="$PROJECT_DIR$/app/config/config_dev.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/parameters.yml" afterPath="$PROJECT_DIR$/app/config/parameters.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/parameters.yml.dist" afterPath="$PROJECT_DIR$/app/config/parameters.yml.dist" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,11 +127,77 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="config.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/config/config.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="36" column="9" lean-forward="true" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="630">
+              <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+              <folding>
+                <marker date="1486632688079" expanded="true" signature="82:99" ph="{% block title ...%}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="security.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/config/security.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="668">
+            <state relative-caret-position="882">
               <caret line="49" column="29" lean-forward="false" selection-start-line="49" selection-start-column="20" selection-end-line="49" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="parameters.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/config/parameters.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+              <folding>
+                <marker date="1486632688119" expanded="true" signature="58:367" ph="parameters: &lt;10 keys&gt;" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AppKernel.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/AppKernel.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DefaultController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+              <folding>
+                <element signature="e#40#99#0#PHP" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="services.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/config/services.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -32,8 +207,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="396">
-                <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+              <first_editor relative-caret-position="378">
+                <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -41,11 +216,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="routing.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/config/routing.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="149">
-              <caret line="18" column="26" lean-forward="true" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+            <state relative-caret-position="432">
+              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -53,26 +228,44 @@
       </file>
     </leaf>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>caca</find>
+      <find>CacaBundle</find>
+      <find>ca</find>
+    </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$</dir>
+    </dirStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/config/config.yml" />
         <option value="$PROJECT_DIR$/app/config/parameters.yml" />
         <option value="$PROJECT_DIR$/app/config/security.yml" />
-        <option value="$PROJECT_DIR$/app/config/routing.yml" />
         <option value="$PROJECT_DIR$/src/AppBundle/DataFixtures/ORM/FirstData.php" />
         <option value="$PROJECT_DIR$/app/.gitignore" />
         <option value="$PROJECT_DIR$/src/AppBundle/Entity/User.php" />
-        <option value="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
+        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php" />
         <option value="$PROJECT_DIR$/src/UserBundle/Resources/views/Default/index.html.twig" />
-        <option value="$PROJECT_DIR$/app/AppKernel.php" />
         <option value="$PROJECT_DIR$/src/AdminBundle/Resources/views/Default/index.html.twig" />
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/web/assets/js/main.js" />
+        <option value="$PROJECT_DIR$/web/assets/css/main.css" />
+        <option value="$PROJECT_DIR$/app/config/routing.yml" />
+        <option value="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Resources/scss/bootstrap.scss" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Resources/scss/anus.scss" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Resources/scss/main.scss" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Resources/scss/caca.scss" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Resources/scss/bite.scss" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Resources/scss/gland.scss" />
+        <option value="$PROJECT_DIR$/app/config/config_dev.yml" />
+        <option value="$PROJECT_DIR$/app/AppKernel.php" />
+        <option value="$PROJECT_DIR$/app/config/config.yml" />
       </list>
     </option>
   </component>
@@ -103,6 +296,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -125,7 +320,61 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="tests" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="symfony-2.8-sandbox" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="symfony-2.8-sandbox" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="symfony-2.8-sandbox" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="symfony-2.8-sandbox" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AppBundle" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="symfony-2.8-sandbox" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="symfony-2.8-sandbox" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AppBundle" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controller" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -255,22 +504,27 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js.eslint.eslintPackage" value="" />
+    <property name="settings.editor.selected.configurable" value="Symfony2.SettingsForm" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../yatoo" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/AppBundle/Resources/scss" />
+      <recent name="$PROJECT_DIR$/src/AppBundle/Resources" />
+      <recent name="$PROJECT_DIR$/web/assets/js" />
+      <recent name="$PROJECT_DIR$/web/assets/scss" />
+      <recent name="$PROJECT_DIR$/app/Resources/views" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/web/assets/scss" />
       <recent name="$PROJECT_DIR$/src/AppBundle/Resources/views/default" />
       <recent name="$PROJECT_DIR$" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/app/Resources/views" />
-      <recent name="$PROJECT_DIR$/src/AppBundle" />
     </key>
   </component>
   <component name="RunManager">
@@ -344,8 +598,11 @@
       <workItem from="1486559331986" duration="1946000" />
       <workItem from="1486564984153" duration="7000" />
       <workItem from="1486567707786" duration="19000" />
-      <workItem from="1486567993238" duration="3732000" />
-      <workItem from="1486572467874" duration="333000" />
+      <workItem from="1486567993238" duration="1456000" />
+      <workItem from="1486570137432" duration="6758000" />
+      <workItem from="1486633093041" duration="321000" />
+      <workItem from="1486638152971" duration="14000" />
+      <workItem from="1487339438862" duration="84000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1486568512666</created>
@@ -354,24 +611,24 @@
       <option name="project" value="LOCAL" />
       <updated>1486568512666</updated>
     </task>
-    <task id="LOCAL-00002" summary="base views">
-      <created>1486569470206</created>
+    <task id="LOCAL-00002" summary="commit">
+      <created>1486572223437</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1486569470206</updated>
+      <updated>1486572223437</updated>
     </task>
     <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6037000" />
+    <option name="totallyTimeSpent" value="10695000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1280" y="0" width="1920" height="1040" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26012793" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19284189" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -398,78 +655,14 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit" />
-    <MESSAGE value="base views" />
-    <option name="LAST_COMMIT_MESSAGE" value="base views" />
+    <MESSAGE value="Merge branch 'master' of https://github.com/TheKassaK/symfony-2.8-sandbox&#10;&#10;# Conflicts:&#10;#&#9;app/AppKernel.php&#10;#&#9;app/config/config.yml&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'master' of https://github.com/TheKassaK/symfony-2.8-sandbox&#10;&#10;# Conflicts:&#10;#&#9;app/AppKernel.php&#10;#&#9;app/config/config.yml&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/config/routing.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AdminBundle/Resources/views/Default/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1296">
-          <caret line="72" column="37" lean-forward="false" selection-start-line="72" selection-start-column="37" selection-end-line="72" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/parameters.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="30" lean-forward="false" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/security.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="31" column="19" lean-forward="false" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/routing.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="26" column="51" lean-forward="false" selection-start-line="26" selection-start-column="51" selection-end-line="26" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/AppBundle/DataFixtures/ORM/FirstData.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
@@ -488,7 +681,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
           <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -496,7 +688,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="21" lean-forward="false" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -504,53 +695,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
           <caret line="19" column="47" lean-forward="false" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
-          <folding>
-            <element signature="e#7#47#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1296">
-          <caret line="72" column="37" lean-forward="false" selection-start-line="72" selection-start-column="37" selection-end-line="72" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/parameters.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="30" lean-forward="false" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/config/security.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="31" column="19" lean-forward="false" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
+        <state relative-caret-position="882">
+          <caret line="49" column="29" lean-forward="false" selection-start-line="49" selection-start-column="20" selection-end-line="49" selection-end-column="29" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/routing.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="26" column="51" lean-forward="false" selection-start-line="26" selection-start-column="51" selection-end-line="26" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/DataFixtures/ORM/FirstData.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="29" column="37" lean-forward="false" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -561,134 +714,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AdminBundle/Resources/views/Default/index.html.twig">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        <state relative-caret-position="522">
+          <caret line="29" column="9" lean-forward="false" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/UserBundle/Resources/views/Default/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="21" lean-forward="false" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/AppKernel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="19" column="47" lean-forward="false" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
-          <folding>
-            <element signature="e#7#47#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1296">
-          <caret line="72" column="37" lean-forward="false" selection-start-line="72" selection-start-column="37" selection-end-line="72" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/parameters.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="30" lean-forward="false" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/security.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="31" column="19" lean-forward="false" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/routing.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="26" column="51" lean-forward="false" selection-start-line="26" selection-start-column="51" selection-end-line="26" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/DataFixtures/ORM/FirstData.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="29" column="37" lean-forward="false" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AdminBundle/Controller/DefaultController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AdminBundle/Resources/views/Default/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/UserBundle/Resources/views/Default/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="21" lean-forward="false" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/AppKernel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="19" column="47" lean-forward="false" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
-          <folding>
-            <element signature="e#7#47#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1296">
-          <caret line="72" column="37" lean-forward="false" selection-start-line="72" selection-start-column="37" selection-end-line="72" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AdminBundle/Controller/DefaultController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/parameters.yml.dist">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/parameters.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -696,15 +726,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
           <caret line="24" column="6" lean-forward="true" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -722,45 +743,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php">
+    <entry file="file://$PROJECT_DIR$/app/config/parameters.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/views/default/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="36" lean-forward="false" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/AppKernel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="20" column="42" lean-forward="false" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
+        <state relative-caret-position="234">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding>
-            <element signature="e#7#47#0#PHP" expanded="false" />
+            <marker date="1486632688119" expanded="true" signature="58:367" ph="parameters: &lt;10 keys&gt;" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/baseAdmin.html.twig">
+    <entry file="file://$PROJECT_DIR$/app/config/parameters.yml.dist">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/routing.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -768,41 +764,105 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="9" selection-end-column="14" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/baseAdmin.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/AdminBundle/Resources/views/Default/index.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state relative-caret-position="90">
+          <caret line="5" column="14" lean-forward="true" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/assets/scss/bootstrap/mixins/_grid.scss" />
+    <entry file="file://$PROJECT_DIR$/web/assets/scss/font-awesome/_core.scss" />
+    <entry file="file://$PROJECT_DIR$/web/assets/scss/font-awesome.scss" />
+    <entry file="file://$PROJECT_DIR$/web/assets/scss/_bootstrap-compass.scss" />
+    <entry file="file://$PROJECT_DIR$/web/assets/scss/_bootstrap-mincer.scss" />
+    <entry file="file://$PROJECT_DIR$/web/assets/scss/_bootstrap-sprockets.scss" />
+    <entry file="file://$PROJECT_DIR$/web/assets/scss/bootstrap/_variables.scss" />
+    <entry file="file://$PROJECT_DIR$/web/assets/scss/bootstrap.scss" />
+    <entry file="file://$PROJECT_DIR$/web/assets/js/bootstrap.js" />
+    <entry file="file://$PROJECT_DIR$/web/assets/js/jquery.js" />
+    <entry file="file://$PROJECT_DIR$/web/assets/js/main.js" />
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding>
+            <element signature="e#40#99#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/assets/css/main.css" />
+    <entry file="file://$PROJECT_DIR$/web/css/app.css" />
+    <entry file="file://$PROJECT_DIR$/src/CacaBundle/Controller/DefaultController.php" />
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/scss/bootstrap/mixins/_grid.scss" />
+    <entry file="file://$PROJECT_DIR$/app/config/routing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/security.yml">
+    <entry file="file://$PROJECT_DIR$/tests/CacaBundle/Controller/DefaultControllerTest.php" />
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/scss/bootstrap/_scaffolding.scss" />
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/scss/bootstrap/_grid.scss" />
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/views/default/index.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="668">
-          <caret line="49" column="29" lean-forward="false" selection-start-line="49" selection-start-column="20" selection-end-line="49" selection-end-column="29" />
+        <state relative-caret-position="0">
+          <caret line="0" column="19" lean-forward="false" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/scss/font-awesome.scss" />
+    <entry file="file://$PROJECT_DIR$/web/css/app_part_3_main_1.css" />
+    <entry file="file://$PROJECT_DIR$/web/css/app_part_1_main_3.css" />
+    <entry file="file://$PROJECT_DIR$/web/css/app_bootstrap_1.css" />
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding>
+            <marker date="1486632688079" expanded="true" signature="82:99" ph="{% block title ...%}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/scss/bootstrap.scss" />
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/scss/anus.scss" />
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/scss/caca.scss" />
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/scss/bite.scss" />
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/scss/gland.scss" />
+    <entry file="file://$PROJECT_DIR$/app/config/config_dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/scss/main.scss" />
+    <entry file="file://$PROJECT_DIR$/app/config/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="36" column="9" lean-forward="true" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="396">
-            <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/app/AppKernel.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="18" column="26" lean-forward="true" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+        <state relative-caret-position="540">
+          <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
           <folding />
         </state>
       </provider>

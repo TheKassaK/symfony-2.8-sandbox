@@ -34,8 +34,12 @@ framework:
 
 # Twig Configuration
 twig:
+    form:
+        resources: ['bootstrap_3_layout.html.twig']
     debug:            "%kernel.debug%"
     strict_variables: "%kernel.debug%"
+    globals:
+        project_name: "%project_name%"
 
 # Doctrine Configuration
 doctrine:
@@ -75,6 +79,10 @@ fos_user:
 assetic:
     debug:          '%kernel.debug%'
     use_controller: '%kernel.debug%'
+#    use_controller: false
+    bundles:        [ ]
     filters:
+        cssrewrite: ~
         scssphp:
             formatter: 'Leafo\ScssPhp\Formatter\Compressed'
+        jsqueeze: ~
