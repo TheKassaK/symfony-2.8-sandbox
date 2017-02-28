@@ -1,3 +1,16 @@
 body h1{
-    color:inherit;
+    text-align: center;
+}
+
+body{
+    padding-top:50px
+}
+
+.starter-template{
+    padding:40px 15px;
+}
+
+.fos_user_success{
+    text-align: center;
+    margin-bottom: 20px;
 }

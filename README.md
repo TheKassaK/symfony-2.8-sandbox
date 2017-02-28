@@ -19,3 +19,15 @@ In this project you have :
     * Prefixed with **/user** in **routing.yml**
     * A firewall preconfigured in **security.yml**
     * All routes in UserBundle require **ROLE_USER** or **ROLE_ADMIN**
+* An AppBundle
+* A default route /redirect-after-login in AppBundle
+
+Configuration : 
+
+* For quickly send emails, you can use [MailJet](https://fr.mailjet.com/) for get :
+    * mailer_host
+    * mailer_user
+    * mailer_password
+    
+    And configure them in parameters.yml
+

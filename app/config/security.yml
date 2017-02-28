@@ -18,7 +18,8 @@ security:
             form_login:
                 provider: fos_userbundle
                 csrf_token_generator: security.csrf.token_manager
-
+                default_target_path: /redirect-after-login
+                always_use_default_target_path: true
             logout:       true
             anonymous:    true
         admin:
@@ -26,8 +27,6 @@ security:
             form_login:
                 login_path: login
                 check_path: login
-                always_use_default_target_path: true
-                default_target_path: /admin
             anonymous: true
             logout:
                 path:   /logout
@@ -37,8 +36,6 @@ security:
             form_login:
                 login_path: login
                 check_path: login
-                always_use_default_target_path: true
-                default_target_path: /user
             anonymous: true
             logout:
                 path:   /logout

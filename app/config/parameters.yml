@@ -6,8 +6,9 @@ parameters:
     database_user: root
     database_password: sangoku
     mailer_transport: smtp
-    mailer_host: 127.0.0.1
-    mailer_user: null
-    mailer_password: null
+    mailer_host: in-v3.mailjet.com
+    mailer_user: b6817cfa6957e0600fdee823555a0922
+    mailer_password: d110aaa7911bfcfec05dc99647a3c663
+    mail_admin: andraud.clement@gmail.com
     secret: 64a44be1ae83489328163a6799ceac8d5afa5e33
     project_name: symfony-sandbox
