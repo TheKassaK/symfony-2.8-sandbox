@@ -15,4 +15,4 @@
 /bin/
 /composer.phar
 docker-compose.yml.dist
-.idea/*
+.idea/workspace.xml
